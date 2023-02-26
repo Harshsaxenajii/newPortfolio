@@ -1,13 +1,65 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: white;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #0a192f;
+}
+::selection {
+  color: #112240;
+  background: #0a192f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar {
+  width: 2px;
 }
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -15px;
+  width: 300px;
+  height: 1px;
+  margin-left: 250px;
+  background-color: #64ffda;
+}
+
+@media (max-width: 1080px) {
+  .heading::after {
+    width: 100px;
+  }
+}
+
+.education::before {
+  content: "";
+  display: block;
+  position: relative;
+  height: 700px;
+  width: 2px;
+  position: absolute;
+
+  /* top: -15px; */
+  margin-left: -25px;
+  background-color: #64ffda;
+}
+  
