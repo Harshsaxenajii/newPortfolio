@@ -4,16 +4,21 @@ import MyJourney from "./Components/MyJourney";
 import Banner from "./Components/Banner";
 import Education from "./Components/Education";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
+import { BrowserRouter } from "react-router-dom";
+import Work from "./Components/Work";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
       <Banner />
       <About />
       <Education />
       <MyJourney />
-    </div>
+      <Work/>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
