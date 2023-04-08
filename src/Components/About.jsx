@@ -15,7 +15,7 @@ function About() {
         viewport={{ once: true }}
       >
         <div className="flex flex-col justify-center items-center ">
-          <div className="heading text-4xl  text-gray-100">About Me</div>
+          <div className="heading text-2xl md:text-4xl  text-gray-100">About Me</div>
         </div>
       </motion.div>
       <div className="flex justify-center items-center  md:w-7/12 p-8 md:p-12">
@@ -23,7 +23,7 @@ function About() {
           <Div className="flex flex-col gap-6 order-last md:-order-last">
             <div>
               <span className="text-5xl text-gray-500">H</span>
-              <span className="text-gray-400">
+              <span className="text-sm md:text-base text-gray-400">
                 ello! My name is Harsh Saxena and I enjoy creating things that
                 live on the internet. My interest in web development started
                 back in 2020 when i decided to learn try editing custom themes -
@@ -32,7 +32,7 @@ function About() {
               </span>
             </div>
             <div>
-              <span className="text-gray-400">
+              <span className="text-sm md:text-base text-gray-400">
                 Fast-forward to today, and I’ve had the privilege of working at
                 an advertising agency, a start-up, a huge corporation, and a
                 student-led design studio. My main focus these days is building

@@ -18,7 +18,7 @@ function Footer() {
           <Div className="font-bold text-[#3f4045] font-mono text-4xl md:text-7xl">
             Get In Touch
           </Div>
-          <Div className="text-center  text-[#3f4045]">
+          <Div className="text-center text-sm md:text-base  text-[#3f4045]">
             Although I’m not currently looking for any new opportunities, my
             inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!

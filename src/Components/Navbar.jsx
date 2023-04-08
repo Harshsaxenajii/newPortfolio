@@ -18,9 +18,9 @@ function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7, delay: 0.25 }}
     >
-      <div className="bg-transparent">
+      <div className="">
         <nav
-          className="flex justify-between h-20 xl:h-20 px-4 xl:px-12 items-center absolute top-0 w-full z-20 text-base shadow-md"
+          className="flex justify-between h-20 xl:h-20 px-4 xl:px-12 items-center absolute top-0 w-full z-20 text-base shadow-md "
           style={{ zIndex: 30 }}
         >
           <section>
@@ -28,11 +28,11 @@ function Navbar() {
           </section>
           <section className="">
             <div
-              className={`flex gap-8 ${
+              className={`flex gap-8 bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400 md:bg-none w-full align-middle ${
                 dropOpen
-                  ? " flex-col absolute left-0 top-20 px-6 py-4 bg-[#0a192f] w-full align-middle"
+                  ? " flex-col absolute left-0 top-20 px-6 py-4  w-full align-middle"
                   : "hidden"
-              } xl:flex xl:flex-row xl:relative xl:top-0 xl:px-12 bg-transparent`}
+              } xl:flex xl:flex-row xl:relative xl:top-0 xl:px-12 `}
             >
               <HashLink onClick={handleDropOnClick} smooth to="#about">
                 <div className="pt-3 style_link fromLeft no-underline text-white hover:no-underline w-fit">

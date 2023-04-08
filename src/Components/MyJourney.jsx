@@ -17,7 +17,7 @@ function MyJourney() {
         // transition={{ duration: 0.4, delay: 0.3 }}
         // viewport={{ once: true }}
       >
-        <div className="heading text-4xl  text-gray-100">My Experience</div>
+        <div className="heading text-2xl md:text-4xl  text-gray-100">My Experience</div>
       </motion.div>
       <div className="mt-12">
         <div className="wrapper">
@@ -26,7 +26,7 @@ function MyJourney() {
           </div>
 
           <Div className="row row-1">
-            <section className="shadow-md shadow-black">
+            <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
                 <img src="./Logos/main.png" className="h-12" alt="" />

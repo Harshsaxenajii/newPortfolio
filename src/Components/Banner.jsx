@@ -11,7 +11,6 @@ import html from "../Images/html.png";
 import css from "../Images/css.png";
 import { HashLink } from "react-router-hash-link";
 import { motion } from "framer-motion";
-import { useFollowPointer } from "./FollowPointer";
 
 function Banner() {
   return (
@@ -25,11 +24,11 @@ function Banner() {
           >
             <div className="text-[#64ffda]">Hi, My Name Is</div>
             <div className="flex flex-col gap-3">
-              <div className="font-bold text-[#3f4045] font-mono text-4xl md:text-7xl">
+              <div className="font-bold text-[#3f4045] font-mono text-3xl md:text-7xl">
                 Harsh Saxena.
               </div>
-              <div className="font-bold text-[#3f4045] font-mono text-4xl md:text-7xl">
-                Software And Web Developer.
+              <div className="font-bold text-[#3f4045] font-mono text-3xl md:text-7xl">
+                Software & Web Developer.
               </div>
             </div>
           </motion.div>
@@ -39,11 +38,9 @@ function Banner() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.25 }}
           >
-            <p className="w-1/2 text-slate-700">
+            <p className="w-1/2 text-sm md:text-base text-slate-700">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
               natus. Rerum facere reiciendis voluptates aliquam, fugiat suscipit
-              minus eum Rerum facere reiciendis voluptates aliquam, fugiat
-              suscipit minus eum
             </p>
 
             <HashLink to="#contact">
@@ -63,16 +60,56 @@ function Banner() {
               <div>Tech Stacks</div>
               <div className="text-4xl font-extralight hidden md:block">|</div>
               <div className="flex gap-8 flex-wrap w-full md:w-2/3">
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={rect} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={html} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={css} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={js} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={node} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={tailwind} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={firebase} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={mongo} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={git} alt="" />
-                <img className="hover:-translate-y-3 h-7 md:h-10" src={ps} alt="" />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={rect}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={html}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={css}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={js}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={node}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={tailwind}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={firebase}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={mongo}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={git}
+                  alt=""
+                />
+                <img
+                  className="hover:-translate-y-3 h-7 md:h-10"
+                  src={ps}
+                  alt=""
+                />
               </div>
             </div>
           </motion.div>

@@ -1,23 +1,32 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import MyJourney from "./Components/MyJourney";
-import Banner from "./Components/Banner";
-import Education from "./Components/Education";
-import About from "./Components/About";
-import Footer from "./Components/Footer";
-import { BrowserRouter } from "react-router-dom";
-import Work from "./Components/Work";
+
+import { BrowserRouter, Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
+import PleaseWait from "./Components/PleaseWait";
+const LazyIndex = React.lazy(() => import("./Components/Index"));
+const NotFound = React.lazy(() => import("./Components/PageNotFound"));
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Banner />
-      <About />
-      <Education />
-      <MyJourney />
-      <Work/>
-      <Footer />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <React.Suspense fallback={<PleaseWait />}>
+              <LazyIndex />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <React.Suspense fallback={<PleaseWait />}>
+              <NotFound />
+            </React.Suspense>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   );
 }
