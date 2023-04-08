@@ -5,7 +5,6 @@ function About() {
   return (
     <div
       id="about"
-      // className="flex flex-col gap-5 justify-center items-center bg-gradient-to-r from-rose-50 to-teal-200 py-20"
       className="flex flex-col gap-5 justify-center items-center bg-[#121217] pt-12"
     >
       <motion.div
@@ -15,7 +14,9 @@ function About() {
         viewport={{ once: true }}
       >
         <div className="flex flex-col justify-center items-center ">
-          <div className="heading text-2xl md:text-4xl  text-gray-100">About Me</div>
+          <div className="heading text-2xl md:text-4xl  text-gray-100">
+            About Me
+          </div>
         </div>
       </motion.div>
       <div className="flex justify-center items-center  md:w-7/12 p-8 md:p-12">

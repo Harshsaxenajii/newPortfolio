@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import git from "../Images/git.png";
 import get from "../Images/ext.png";
 import { motion } from "framer-motion";
@@ -15,7 +14,11 @@ const PageSubComp = (props) => {
           transition={{ duration: 0.3, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <img className="image my-6 xl:my-0" src={props.image} alt="Project Image" />
+          <img
+            className="image my-6 xl:my-0"
+            src={props.image}
+            alt="Project Image"
+          />
         </motion.div>
         <motion.div
           className="xl:w-1/3 xl:absolute  flex flex-col justify-center items-start right-0 xl:left-[38%] h-[100%] gap-3"
@@ -31,8 +34,6 @@ const PageSubComp = (props) => {
             <div>{props.desc}</div>
           </div>
           <div className="mx-20  text-[#9ca8c6] flex gap-2 items-center">
-            {/* <div>Firebase</div>
-            <div>React</div> */}
             <a href={props.RepoLink} target="_blank ">
               <img className="w-9" src={git} alt="" />
             </a>
@@ -51,54 +52,45 @@ function Work() {
     {
       image: "./ProjectImages/talkrr.png ",
       title: "Talkrr",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio, natus possimus veritatis, exercitationem maiores voluptatem culpa magnam explicabo, a at ducimus dolorum corrupti nesciunt. Similique sit error architecto enim.",
+      desc: "Real time chatting application created with ReactJs, firebase, Redux and Tailwind Css. here I used good concepts of React Redux and Context and much more things",
       link: "https://talkrr-rose.vercel.app",
-      RepoLink: "harshsaxenajii",
+      RepoLink: "https://github.com/Harshsaxenajii/Talkrr",
     },
     {
-      image: "./ProjectImages/fuelcab.png",
-      title: "Fuelcab App",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio, natus possimus veritatis, exercitationem maiores voluptatem culpa magnam explicabo, a at ducimus dolorum corrupti nesciunt. Similique sit error architecto enim.",
-      link: "./ProjectImages/fuelcab.jpg ",
-      RepoLink: "./ProjectImages/fuelcab.jpg ",
+      image: "./ProjectImages/shopping.png",
+      title: "Shopping App",
+      desc: "Developed an application using React.js, Node.js, and MongoDB as database. API integration and stripe is also use for authantication and Payment Gateway",
+      link: "https://github.com/Harshsaxenajii/ShoppingApp",
+      RepoLink: "https://github.com/Harshsaxenajii/ShoppingApp",
     },
     {
       image: "./ProjectImages/newsApp.png ",
       title: "News App",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio, natus possimus veritatis, exercitationem maiores voluptatem culpa magnam explicabo, a at ducimus dolorum corrupti nesciunt. Similique sit error architecto enim.",
-      link: "./ ",
-      RepoLink: "jk",
+      desc: "Created with ReactJs and news Api. I use many bootstarp components and also customize accroding to my requirement like card and navbar",
+      link: "https://github.com/Harshsaxenajii/news-app",
+      RepoLink: "https://github.com/Harshsaxenajii/news-app",
     },
     {
       image: "./ProjectImages/authantication.png ",
       title: "Authantication",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio, natus possimus veritatis, exercitationem maiores voluptatem culpa magnam explicabo, a at ducimus dolorum corrupti nesciunt. Similique sit error architecto enim.",
-      link: "./ ",
-      RepoLink: "./ ",
+      desc: "Created Only for learning firebase Authantication. It has a good UI with email and google Authantication",
+      link: "https://login-with-auth-nine.vercel.app/",
+      RepoLink: "https://github.com/Harshsaxenajii/login-with-auth ",
     },
     {
       image: "./ProjectImages/texteditor.png ",
       title: "Text Editor",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio, natus possimus veritatis, exercitationem maiores voluptatem culpa magnam explicabo, a at ducimus dolorum corrupti nesciunt. Similique sit error architecto enim.",
-      link: "./ ",
-      RepoLink: "./ ",
-    },
-    {
-      image: "./ProjectImages/kanha ji.png ",
-      title: "Kanha Ji Appliances",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio, natus possimus veritatis, exercitationem maiores voluptatem culpa magnam explicabo, a at ducimus dolorum corrupti nesciunt. Similique sit error architecto enim.",
-      link: "./ ",
-      RepoLink: "./ ",
+      desc: "Created with react js. It is a perfect use of states and Js function. Dark mode is also available for users",
+      link: "https://harshsaxenajii.github.io/Text_editor/",
+      RepoLink: "https://github.com/Harshsaxenajii/Text_editor",
     },
   ]);
   return (
-    <div
-      id="work"
-      // className="px-12 py-20 bg-gradient-to-r from-pink-500 to-yellow-100"
-      className="px-12 py-20 bg-[#121217]"
-    >
+    <div id="work" className="px-12 py-20 bg-[#121217]">
       <div className="flex flex-col justify-center items-center mb-10 ">
-        <div className="heading text-2xl md:text-4xl text-gray-100 ">My Projects </div>
+        <div className="heading text-2xl md:text-4xl text-gray-100 ">
+          My Projects{" "}
+        </div>
         <div className="w-full">
           {project.map((info) => (
             <PageSubComp

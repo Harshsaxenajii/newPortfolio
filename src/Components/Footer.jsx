@@ -36,21 +36,34 @@ function Footer() {
           </Div>
           <Div className="flex gap-3 items-center ">
             <div className="text-[#104539]">Connect On : </div>
-            <img
-              className="hover:-translate-y-1 transition-all ease-in-out delay-75 cursor-pointer w-8 h-8"
-              src={git}
-              alt=""
-            />
-            <img
-              className="hover:-translate-y-1 transition-all ease-in-out delay-75 cursor-pointer w-8 h-8"
-              src={linkedin}
-              alt=""
-            />
-            <img
-              className="hover:-translate-y-1 transition-all ease-in-out delay-75 cursor-pointer w-8 h-8"
-              src={instagram}
-              alt=""
-            />
+
+            <a href="https://github.com/Harshsaxenajii" target="_black">
+              <img
+                className="hover:-translate-y-1 transition-all ease-in-out delay-75 cursor-pointer w-8 h-8"
+                src={git}
+                alt=""
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/harsh-saxena-75a794237/"
+              target="_black"
+            >
+              <img
+                className="hover:-translate-y-1 transition-all ease-in-out delay-75 cursor-pointer w-8 h-8"
+                src={linkedin}
+                alt=""
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/harsh.saxenajii/"
+              target="_black"
+            >
+              <img
+                className="hover:-translate-y-1 transition-all ease-in-out delay-75 cursor-pointer w-8 h-8"
+                src={instagram}
+                alt=""
+              />
+            </a>
           </Div>
         </div>
       </div>

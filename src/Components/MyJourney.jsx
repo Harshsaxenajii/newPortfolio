@@ -17,7 +17,9 @@ function MyJourney() {
         // transition={{ duration: 0.4, delay: 0.3 }}
         // viewport={{ once: true }}
       >
-        <div className="heading text-2xl md:text-4xl  text-gray-100">My Experience</div>
+        <div className="heading text-2xl md:text-4xl  text-gray-100">
+          My Experience
+        </div>
       </motion.div>
       <div className="mt-12">
         <div className="wrapper">
@@ -36,9 +38,10 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                ratione ipsam ipsa dolor eius perspiciatis quisquam sed
-                repudiandae minima expedita.
+                I have worked on a collaborated project and I learn about
+                open-source contribution like branching in git and many more. I
+                know about the fire store, firebase authentication and Realtime
+                database.
               </p>
             </section>
           </Div>
@@ -54,9 +57,10 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                ratione ipsam ipsa dolor eius perspiciatis quisquam sed
-                repudiandae minima expedita.
+                Here I am working on the design and development of the complete
+                site. I have learned React up to advance level like how to use
+                context and Redux. I have improved my tech knowledge and try to
+                get familiar with firebase and GitHub.
               </p>
             </section>
           </Div>
@@ -71,9 +75,11 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">July, 2021</span>
               <p className="text-sm text-[#9ca8c6]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                ratione ipsam ipsa dolor eius perspiciatis quisquam sed
-                repudiandae minima expedita.
+                Worked on solving the problem of customer and manage the CRM •
+                Hire technician for field work and also trained for the service
+                on customer site. Work with the company’s employee and head of
+                the company. Learn about the work flow of all these transitions
+                of spare and services.
               </p>
             </section>
           </Div>
@@ -89,9 +95,9 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                ratione ipsam ipsa dolor eius perspiciatis quisquam sed
-                repudiandae minima expedita.
+                After 10th I had selected for 5 days summer camp in srinagar
+                Uttarakhand. Experienced professors took the seminar and provide
+                the amazing practical knowledge about science.
               </p>
             </section>
           </Div>
@@ -105,9 +111,8 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                ratione ipsam ipsa dolor eius perspiciatis quisquam sed
-                repudiandae minima expedita.
+                Got a award form "Mr. Bhagat Singh Koshyari" for get the
+                position in top 1% students in Uttarakand board
               </p>
             </section>
           </Div>
@@ -118,106 +123,3 @@ function MyJourney() {
 }
 
 export default MyJourney;
-
-{
-  /* highschool */
-}
-{
-  /* <div className="row row-2">
-<section className="shadow-md shadow-black">
-  <i className="icon fas fa-map-marker-alt"></i>
-  <div className="details">
-      <span className="text-sm title text-[#9ca8c6]">Schooling</span>
-      <span className="text-sm text-[#9ca8c6]">before 2017</span>
-      </div>
-    <p className="text-sm text-[#9ca8c6]">
-    At that time I was not interested in studies. I spent my lot of
-      time working with electronic devices like soldering, multimeters
-      and tools. I was also interested in repairing devices. I
-      repaired many pcbs. These things were the great attraction form
-      me towards engineering.
-      </p>
-      </section>
-    </div> */
-}
-{
-  /* <div className="row row-1">
-    <section className="shadow-md shadow-black">
-      <i className="icon fas fa-paper-plane" />
-      <div className="details">
-        <span className="title text-[#9ca8c6]">High School</span>
-        <span className="text-[#9ca8c6]">2017 - 18</span>
-      </div>
-      <p className="text-[#9ca8c6]">
-        In my 10th class I was very interested in science and
-        mathematics. So I prepared very well for the board exam, and
-        finally I scored 98 in maths and 93 in science and totaled more
-        than 90 percentage on the state board.
-      </p>
-    </section>
-  </div> */
-}
-// <div className="row row-1">
-//   <section className="shadow-md shadow-black">
-//     <i className="icon fas fa-home"></i>
-//     <div className="details">
-//       <span className="text-sm title text-[#9ca8c6]">Collage</span>
-//       <span className="text-sm text-[#9ca8c6]">1st Jan 2021</span>
-//     </div>
-//     <p className="text-sm text-[#9ca8c6]">
-//       Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed
-//       qui veroes praesentium maiores, sint eos vero sapiente voluptas
-//       debitis dicta dolore.
-//     </p>
-//   </section>
-// </div>
-// <div className="row row-2">
-//   <section className="shadow-md shadow-black">
-//     <i className="icon fas fa-star" />
-//     <div className="details">
-//       <span className="text-sm title text-[#9ca8c6]">Drop Year</span>
-//       <span className="text-sm text-[#9ca8c6]">2020 - 2021</span>
-//     </div>
-//     <p className="text-sm text-[#9ca8c6]">
-//       Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed
-//       qui veroes praesentium maiores, sint eos vero sapiente voluptas
-//       debitis dicta dolore.
-//     </p>
-//   </section>
-// </div>
-// <div className="row row-1">
-//   <section className="shadow-md shadow-black">
-//     <i className="icon fas fa-rocket" />
-//     <div className="details">
-//       <span className="text-sm title text-[#9ca8c6]">
-//         Intermediate
-//       </span>
-//       <span className="text-sm text-[#9ca8c6]">2019 - 20</span>
-//     </div>
-//     <p className="text-sm text-[#9ca8c6]">
-//       Due to board exams, I dedicated my time to my study. I focused
-//       on the concepts of science and maths and I scored around 88
-//       percentage points.
-//     </p>
-//   </section>
-// </div>
-// <div className="row row-2">
-//   <section className="shadow-md shadow-black">
-//     <i className="icon fas fa-globe" />
-//     <div className="details">
-//       <span className="text-sm title text-[#9ca8c6]">
-//         11th class (1st year)
-//       </span>
-//       <span className="text-sm text-[#9ca8c6]">2018 - 19</span>
-//     </div>
-//     <p className="text-sm text-[#9ca8c6]">
-//       In my 11th class i was selected for the inspire 5 days summer
-//       camp, it is only for the top 1% students of state board were
-//       held in srinagar uttarakhand there I explored about the morden
-//       science. I was impressed and looked into the depth of science;
-//       and then I am much interested in physics. At that time my vision
-//       was not clear if I wanted to become an engineer or scientist. I
-//       mean, B- tech and Bsc.
-//     </p>
-//   </section>
-// </div>

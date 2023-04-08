@@ -7,7 +7,6 @@ function Education() {
     <div
       id="education"
       className="flex flex-col gap-5 justify-center items-center py-20 bg-[#121217]"
-      // className="flex flex-col gap-5 justify-center items-center py-20 bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-pink-500 via-purple-500 to-blue-500"
     >
       <motion.div
         className="flex flex-col justify-center items-center mb-10 "
@@ -16,7 +15,9 @@ function Education() {
         transition={{ duration: 0.4, delay: 0.3 }}
         viewport={{ once: true }}
       >
-        <div className="heading  text-2xl md:text-4xl  text-gray-100">My Education</div>
+        <div className="heading  text-2xl md:text-4xl  text-gray-100">
+          My Education
+        </div>
       </motion.div>
       <Div className="education mx-7 flex flex-col md:w-3/6 divide-y-2 divide-[#64ffda]">
         <div className=" flex flex-col gap-1 my-7 p-4 text-sm md:text-base text-[#9ca8c6]">

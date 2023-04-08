@@ -39,8 +39,10 @@ function Banner() {
             transition={{ duration: 0.7, delay: 0.25 }}
           >
             <p className="w-1/2 text-sm md:text-base text-slate-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-              natus. Rerum facere reiciendis voluptates aliquam, fugiat suscipit
+              I’m a web developer and software engineer also. I spend my lots of
+              time on collaborated project and also in my personal projects. I
+              also have a experience of industry level projects. Always
+              available for collobration just ping me.
             </p>
 
             <HashLink to="#contact">
