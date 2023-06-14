@@ -48,6 +48,7 @@ const PageSubComp = (props) => {
 };
 
 function Work() {
+  const [limit, setLimit] = useState(3);
   const [project] = useState([
     {
       image: "./ProjectImages/talkrr.png ",
@@ -86,13 +87,16 @@ function Work() {
     },
   ]);
   return (
-    <div id="work" className="px-12 py-20 bg-[#121217]">
+    <div
+      id="work"
+      className="flex justify-center flex-col gap-6 items-center px-12 py-20 bg-[#121217]"
+    >
       <div className="flex flex-col justify-center items-center mb-10 ">
         <div className="heading text-2xl md:text-4xl text-gray-100 ">
           My Projects{" "}
         </div>
         <div className="w-full">
-          {project.map((info) => (
+          {project.slice(0, limit).map((info) => (
             <PageSubComp
               title={info.title}
               desc={info.desc}
@@ -103,6 +107,15 @@ function Work() {
           ))}
         </div>
       </div>
+
+      {limit != project.length && (
+        <button
+          onClick={() => setLimit(project.length)}
+          className="w-20 text-white px-2 py-2 border-2 border-white rounded-md hover:border-cyan-800 hover:text-cyan-800 transition-all delay-100 hover:shadow-sm hover:shadow-cyan-600 ease-in-out"
+        >
+          More
+        </button>
+      )}
     </div>
   );
 }

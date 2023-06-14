@@ -38,8 +38,8 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                I have worked on a collaborated project and I learn about
-                open-source contribution like branching in git and many more. I
+                I have worked on a collaborative project and I learn about
+                open-source contributions like branching in git and many more. I
                 know about the fire store, firebase authentication and Realtime
                 database.
               </p>

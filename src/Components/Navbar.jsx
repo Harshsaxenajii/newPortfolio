@@ -24,7 +24,8 @@ function Navbar() {
           style={{ zIndex: 30 }}
         >
           <section>
-            <img className="w-16" src={logo} alt="img" />
+            {/* <img className="w-16" src={logo} alt="img" /> */}
+            
           </section>
           <section className="">
             <div
@@ -63,7 +64,7 @@ function Navbar() {
                 <a href="./Resume/Resume.pdf" target="_blank">
                   <button
                     onClick={handleDropOnClick}
-                    className=" text-[#64ffda] px-2 py-2 border-2 border-[#64ffda] rounded-md hover:border-cyan-800 hover:text-cyan-800 transition-all delay-100 hover:shadow-sm hover:shadow-cyan-600 ease-in-out"
+                    className=" text-white px-2 py-2 border-2 border-white rounded-md hover:border-cyan-800 hover:text-cyan-800 transition-all delay-100 hover:shadow-sm hover:shadow-cyan-600 ease-in-out"
                   >
                     Resume
                   </button>

@@ -27,7 +27,7 @@ function About() {
               <span className="text-sm md:text-base text-gray-400">
                 ello! My name is Harsh Saxena and I enjoy creating things that
                 live on the internet. My interest in web development started
-                back in 2020 when i decided to learn try editing custom themes -
+                back in 2021 when i decided to learn try editing custom themes -
                 turns out hacking togather a custom reblog button taught me a
                 lot about HTML & CSS!
               </span>

@@ -22,7 +22,7 @@ function Banner() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-[#64ffda]">Hi, My Name Is</div>
+            <div className="text-gray-300">Hi, My Name Is</div>
             <div className="flex flex-col gap-3">
               <div className="font-bold text-[#3f4045] font-mono text-3xl md:text-7xl">
                 Harsh Saxena.
@@ -39,16 +39,18 @@ function Banner() {
             transition={{ duration: 0.7, delay: 0.25 }}
           >
             <p className="w-1/2 text-sm md:text-base text-slate-700">
-              I’m a web developer and software engineer also. I spend my lots of
-              time on collaborated project and also in my personal projects. I
-              also have a experience of industry level projects. Always
-              available for collobration just ping me.
+              Explore the seamless integration of HTML, CSS, JavaScript, and
+              other powerful tools and frameworks, as I leverage their full
+              potential to create intuitive, dynamic, and robust digital
+              solutions. The journey encompasses collaboration with clients,
+              strategizing, problem-solving, and delivering results that exceed
+              expectations.
             </p>
 
             <HashLink to="#contact">
               <div className="my-6">
-                <button className=" text-[#64ffda]  border-2  w-60 p-3 border-[#64ffda] rounded-md hover:border-cyan-800 hover:text-cyan-800 transition-all delay-100 hover:shadow-sm hover:shadow-cyan-600 ease-in-out">
-                  Hire Me
+                <button className=" text-gray-300  border-2  w-60 p-3 border-gray-300 rounded-md hover:border-cyan-800 hover:text-cyan-800 transition-all delay-100 hover:shadow-sm hover:shadow-cyan-600 ease-in-out">
+                  Join Me
                 </button>
               </div>
             </HashLink>
