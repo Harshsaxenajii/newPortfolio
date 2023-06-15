@@ -22,13 +22,13 @@ function Banner() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-gray-300">Hi, My Name Is</div>
+            <div className="text-gray-300 text-sm">Hi, My Name Is</div>
             <div className="flex flex-col gap-3">
-              <div className="font-bold text-[#3f4045] font-mono text-3xl md:text-7xl">
+              <div className="font-bold text-[#3f4045] font-mono text-2xl md:text-7xl">
                 Harsh Saxena.
               </div>
-              <div className="font-bold text-[#3f4045] font-mono text-3xl md:text-7xl">
-                Software & Web Developer.
+              <div className="font-bold text-[#3f4045] font-mono text-2xl md:text-7xl">
+                Software & Web Developer
               </div>
             </div>
           </motion.div>
@@ -38,7 +38,7 @@ function Banner() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.25 }}
           >
-            <p className="w-1/2 text-sm md:text-base text-slate-700">
+            <p className="md:w-1/2 text-sm md:text-base text-slate-700">
               Explore the seamless integration of HTML, CSS, JavaScript, and
               other powerful tools and frameworks, as I leverage their full
               potential to create intuitive, dynamic, and robust digital

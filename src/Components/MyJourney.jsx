@@ -7,15 +7,10 @@ function MyJourney() {
   return (
     <div
       id="experience"
-      // className="px-2 md:px-14 bg-gradient-to-t py-20 to-orange-200 from-sky-600"
       className="px-2 md:px-14 py-20 bg-[#121217]"
     >
       <motion.div
         className="flex flex-col justify-center items-center"
-        // initial={{ x: 100, opacity: 0 }}
-        // whileInView={{ x: 0, opacity: 1 }}
-        // transition={{ duration: 0.4, delay: 0.3 }}
-        // viewport={{ once: true }}
       >
         <div className="heading text-2xl md:text-4xl  text-gray-100">
           My Experience
@@ -31,17 +26,20 @@ function MyJourney() {
             <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
-                <img src="./Logos/main.png" className="h-12" alt="" />
-                <span className="text-sm title text-[#9ca8c6]">
+                <img src="./Logos/main.png" className="md:h-12 h-8" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
                   Fuelcab Internship
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                I have worked on a collaborative project and I learn about
-                open-source contributions like branching in git and many more. I
-                know about the fire store, firebase authentication and Realtime
-                database.
+                Through a collaborative project, I learned about open-source
+                contributions like Git branching. I also gained knowledge in
+                Firebase tools such as Firestore, Firebase Authentication, and
+                Realtime Database, providing insights into cloud-based data
+                storage, user authentication, and real-time updates. Teamwork
+                and open-source resources proved essential for successful
+                software development.
               </p>
             </section>
           </Div>
@@ -50,17 +48,19 @@ function MyJourney() {
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
-                <img src="./Logos/main.png" className="h-12" alt="" />
-                <span className="text-sm title text-[#9ca8c6]">
+                <img src="./Logos/main.png" className="md:h-12 h-8" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
                   Fuelcab Internship
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                Here I am working on the design and development of the complete
-                site. I have learned React up to advance level like how to use
-                context and Redux. I have improved my tech knowledge and try to
-                get familiar with firebase and GitHub.
+                In this role, I was responsible for the end-to-end design and
+                development of the website. I gained expertise in React,
+                exploring advanced concepts such as context and Redux.
+                Additionally, I expanded my technical knowledge by familiarizing
+                myself with Firebase and GitHub, further enhancing my skills in
+                the process.
               </p>
             </section>
           </Div>
@@ -68,18 +68,18 @@ function MyJourney() {
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
-                <img className="h-12" src="./Logos/baltra.png" alt="" />
-                <span className="text-sm title text-[#9ca8c6]">
+                <img className="md:h-12 h-8" src="./Logos/baltra.png" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
                   Started Customer Service
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">July, 2021</span>
               <p className="text-sm text-[#9ca8c6]">
-                Worked on solving the problem of customer and manage the CRM •
-                Hire technician for field work and also trained for the service
-                on customer site. Work with the company’s employee and head of
-                the company. Learn about the work flow of all these transitions
-                of spare and services.
+                In my role, I tackled customer issues and handled CRM
+                management. I hired and trained technicians for field work,
+                ensuring quality service on customer sites. Collaborating with
+                company employees and the company head, I gained insights into
+                the workflow of spare parts and services transitions.
               </p>
             </section>
           </Div>
@@ -88,16 +88,18 @@ function MyJourney() {
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
-                <img className="h-14" src="./Logos/dst.png" alt="" />
-                <span className="text-sm title text-[#9ca8c6]">
+                <img className="md:h-14 h-10" src="./Logos/dst.png" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
                   Inspire Summer Camp
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                After 10th I had selected for 5 days summer camp in srinagar
-                Uttarakhand. Experienced professors took the seminar and provide
-                the amazing practical knowledge about science.
+                After completing 10th grade, I was selected for a 5-day summer
+                camp in Srinagar, Uttarakhand. Accompanied by experienced
+                professors, the camp offered engaging seminars and practical
+                sessions that enriched my scientific knowledge and left me
+                amazed.
               </p>
             </section>
           </Div>
@@ -106,13 +108,16 @@ function MyJourney() {
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
-                <img className="h-14" src="./Logos/img.png" alt="" />
-                <span className="text-sm title text-[#9ca8c6]">Award</span>
+                <img className="md:h-14 h-10" src="./Logos/img.png" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">Award</span>
               </div>
               <span className="text-sm text-[#9ca8c6]">June, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
-                Got a award form "Mr. Bhagat Singh Koshyari" for get the
-                position in top 1% students in Uttarakand board
+                I was honored to receive an award from "Mr. Bhagat Singh
+                Koshyari" for being among the top 1% of students in the
+                Uttarakhand board. This recognition highlights my dedication to
+                academic excellence and motivates me to continue striving for
+                success in my educational journey.
               </p>
             </section>
           </Div>

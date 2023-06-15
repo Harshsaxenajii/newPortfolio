@@ -25,25 +25,25 @@ function About() {
             <div>
               <span className="text-5xl text-gray-500">H</span>
               <span className="text-sm md:text-base text-gray-400">
-                ello! My name is Harsh Saxena and I enjoy creating things that
-                live on the internet. My interest in web development started
-                back in 2021 when i decided to learn try editing custom themes -
-                turns out hacking togather a custom reblog button taught me a
-                lot about HTML & CSS!
-              </span>
-            </div>
-            <div>
-              <span className="text-sm md:text-base text-gray-400">
-                Fast-forward to today, and I’ve had the privilege of working at
-                an advertising agency, a start-up, a huge corporation, and a
-                student-led design studio. My main focus these days is building
-                accessible, inclusive products and digital experiences at
-                Upstatement for a variety of clients.
+                ello! I am Harsh Saxena. As a developer, I have a solid
+                foundation in React.js and extensive experience gained through a
+                internship as a webdeveloper. Throughout my journey, I have
+                worked on numerous projects, honing my skills and exploring
+                various aspects of web development. From crafting engaging user
+                interfaces to implementing efficient backend functionalities, I
+                strive to deliver robust and user-centric solutions. With a
+                passion for continuous learning and staying up-to-date with the
+                latest industry trends, I am dedicated to delivering
+                high-quality and impactful software solutions.
               </span>
             </div>
           </Div>
           <Div className="flex justify-center items-center relative">
-            <img className="rounded-md w-64 h-64 z-10" src={me} alt="img" />
+            <img
+              className="rounded-md h-48 w-48 md:w-64 md:h-64 z-10"
+              src={me}
+              alt="img"
+            />
           </Div>
         </div>
       </div>

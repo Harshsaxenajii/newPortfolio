@@ -19,9 +19,9 @@ function Footer() {
             Get In Touch
           </Div>
           <Div className="text-center text-sm md:text-base  text-[#3f4045]">
-            I’m currently looking for any new opportunities, my inbox is always
-            open. Whether you have a question or just want to say hi, I’ll try
-            my best to get back to you!
+            I'm actively seeking new opportunities and my inbox is readily
+            available. Feel free to reach out with questions or a friendly
+            hello, and I'll make every effort to respond promptly.
           </Div>
 
           <Div>

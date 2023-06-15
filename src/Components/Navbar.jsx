@@ -20,7 +20,7 @@ function Navbar() {
     >
       <div className="">
         <nav
-          className="flex justify-between h-20 xl:h-20 px-4 xl:px-12 items-center absolute top-0 w-full z-20 text-base shadow-md "
+          className="flex justify-between h-14 xl:h-20 px-4 xl:px-12 items-center absolute top-0 w-full z-20 text-base shadow-md "
           style={{ zIndex: 30 }}
         >
           <section>
@@ -29,9 +29,9 @@ function Navbar() {
           </section>
           <section className="">
             <div
-              className={`flex gap-8 bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400 md:bg-none w-full align-middle ${
+              className={`flex gap-4 md:gap-8 bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400 md:bg-none w-full align-middle ${
                 dropOpen
-                  ? " flex-col absolute left-0 top-20 px-6 py-4  w-full align-middle"
+                  ? " flex-col absolute left-0 top-12 px-6 py-4  w-full align-middle"
                   : "hidden"
               } xl:flex xl:flex-row xl:relative xl:top-0 xl:px-12 `}
             >
