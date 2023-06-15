@@ -26,8 +26,8 @@ function About() {
               <span className="text-5xl text-gray-500">H</span>
               <span className="text-sm md:text-base text-gray-400">
                 ello! I am Harsh Saxena. As a developer, I have a solid
-                foundation in React.js and extensive experience gained through a
-                internship as a webdeveloper. Throughout my journey, I have
+                foundation in React.js and extensive experience gained through
+                an internship as a webdeveloper. Throughout my journey, I have
                 worked on numerous projects, honing my skills and exploring
                 various aspects of web development. From crafting engaging user
                 interfaces to implementing efficient backend functionalities, I

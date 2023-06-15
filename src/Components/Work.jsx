@@ -73,7 +73,7 @@ function Work() {
     },
     {
       image: "./ProjectImages/authantication.png ",
-      title: "Authantication",
+      title: "Authentication",
       desc: "I focused on learning Firebase Authentication, specifically its user-friendly UI that supports email and Google authentication. This experience was solely dedicated to improving my understanding of this aspect of Firebase for future development projects.",
       link: "https://login-with-auth-nine.vercel.app/",
       RepoLink: "https://github.com/Harshsaxenajii/login-with-auth ",

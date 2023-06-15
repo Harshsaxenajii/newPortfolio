@@ -68,7 +68,7 @@ function Footer() {
         </div>
       </div>
       <Div className="text-sm  text-[#104539] ">
-        Design And Develop By Harsh Saxena
+        Designed And Developed By Harsh Saxena
       </Div>
     </div>
   );
