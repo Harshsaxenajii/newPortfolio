@@ -5,13 +5,8 @@ import Div from "./Div";
 
 function MyJourney() {
   return (
-    <div
-      id="experience"
-      className="px-2 md:px-14 py-20 bg-[#121217]"
-    >
-      <motion.div
-        className="flex flex-col justify-center items-center"
-      >
+    <div id="experience" className="px-2 md:px-14 py-20 bg-[#121217]">
+      <motion.div className="flex flex-col justify-center items-center">
         <div className="heading text-2xl md:text-4xl  text-gray-100">
           My Experience
         </div>
@@ -21,8 +16,29 @@ function MyJourney() {
           <div className="center-line">
             <i className="fas fa-caret-up"></i>
           </div>
-
           <Div className="row row-1">
+            <section className="shadow-md shadow-black">
+              <i className="icon fas fa-map-marker-alt"></i>
+              <div className="details">
+                <img className="md:h-12 h-8" src="./Logos/baltra.png" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
+                  Started Customer Service
+                </span>
+              </div>
+              <span className="text-sm text-[#9ca8c6]">
+                Started From July-2021
+              </span>
+              <p className="text-sm text-[#9ca8c6]">
+                In my role, I tackled customer issues and handled CRM
+                management. I hired and trained technicians for field work,
+                ensuring quality service on customer sites. Collaborating with
+                company employees and the company head, I gained insights into
+                the workflow of spare parts and services transitions.
+              </p>
+            </section>
+          </Div>
+
+          <Div className="row row-2">
             <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
@@ -31,7 +47,10 @@ function MyJourney() {
                   Fuelcab Internship
                 </span>
               </div>
-              <span className="text-sm text-[#9ca8c6]">June, 2019</span>
+              <span className="text-sm text-[#9ca8c6]">
+                {" "}
+                January. 2023 ‑ March. 2023
+              </span>
               <p className="text-sm text-[#9ca8c6]">
                 Through a collaborative project, I learned about open-source
                 contributions like Git branching. I also gained knowledge in
@@ -44,7 +63,7 @@ function MyJourney() {
             </section>
           </Div>
 
-          <Div className="row row-2">
+          <Div className="row row-1">
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
@@ -53,7 +72,9 @@ function MyJourney() {
                   Fuelcab Internship
                 </span>
               </div>
-              <span className="text-sm text-[#9ca8c6]">June, 2019</span>
+              <span className="text-sm text-[#9ca8c6]">
+                July. 2022‑ August. 2022
+              </span>
               <p className="text-sm text-[#9ca8c6]">
                 In this role, I was responsible for the end-to-end design and
                 development of the website. I gained expertise in React,
@@ -61,25 +82,6 @@ function MyJourney() {
                 Additionally, I expanded my technical knowledge by familiarizing
                 myself with Firebase and GitHub, further enhancing my skills in
                 the process.
-              </p>
-            </section>
-          </Div>
-          <Div className="row row-1">
-            <section className="shadow-md shadow-black">
-              <i className="icon fas fa-map-marker-alt"></i>
-              <div className="details">
-                <img className="md:h-12 h-8" src="./Logos/baltra.png" alt="" />
-                <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  Started Customer Service
-                </span>
-              </div>
-              <span className="text-sm text-[#9ca8c6]">July, 2021</span>
-              <p className="text-sm text-[#9ca8c6]">
-                In my role, I tackled customer issues and handled CRM
-                management. I hired and trained technicians for field work,
-                ensuring quality service on customer sites. Collaborating with
-                company employees and the company head, I gained insights into
-                the workflow of spare parts and services transitions.
               </p>
             </section>
           </Div>
@@ -109,9 +111,11 @@ function MyJourney() {
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
                 <img className="md:h-14 h-10" src="./Logos/img.png" alt="" />
-                <span className="text-xs md:text-sm title text-[#9ca8c6]">Award</span>
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
+                  Award
+                </span>
               </div>
-              <span className="text-sm text-[#9ca8c6]">June, 2019</span>
+              <span className="text-sm text-[#9ca8c6]">April, 2019</span>
               <p className="text-sm text-[#9ca8c6]">
                 I was honored to receive an award from "Mr. Bhagat Singh
                 Koshyari" for being among the top 1% of students in the
