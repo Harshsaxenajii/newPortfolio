@@ -16,40 +16,44 @@ function MyJourney() {
           <div className="center-line">
             <i className="fas fa-caret-up"></i>
           </div>
+
           <Div className="row row-1">
-            <section className="shadow-md shadow-black">
+            <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
-                <img className="md:h-12 h-8" src="./Logos/baltra.png" alt="" />
+                <img
+                  src="./Logos/tapop.jpg"
+                  className="md:h-12 h-8 rounded-md"
+                  alt=""
+                />
                 <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  Started Customer Service
+                  Full Stack web developer at Qviq
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">
-                Started From July-2021
+                {" "}
+                September 2023 - Till Now
               </span>
               <p className="text-sm text-[#9ca8c6]">
-                In my role, I tackled customer issues and handled CRM
-                management. I hired and trained technicians for field work,
-                ensuring quality service on customer sites. Collaborating with
-                company employees and the company head, I gained insights into
-                the workflow of spare parts and services transitions.
+                As a Full Stack Web Developer, my role involves translating
+                Figma designs into functional web applications. I collaborate
+                closely with a diverse team of professionals to implement
+                workflow logic and ensure seamless user experiences.
               </p>
             </section>
           </Div>
-
           <Div className="row row-2">
             <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
                 <img src="./Logos/main.png" className="md:h-12 h-8" alt="" />
                 <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  Fuelcab Internship
+                  Frontend Develoepr at Fuelcab
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">
                 {" "}
-                January. 2023 ‑ March. 2023
+                January. 2023 ‑ July. 2023
               </span>
               <p className="text-sm text-[#9ca8c6]">
                 Through a collaborative project, I learned about open-source
@@ -69,11 +73,11 @@ function MyJourney() {
               <div className="details">
                 <img src="./Logos/main.png" className="md:h-12 h-8" alt="" />
                 <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  Fuelcab Internship
+                  React Developer at Fuelcab
                 </span>
               </div>
               <span className="text-sm text-[#9ca8c6]">
-                July. 2022‑ August. 2022
+                July. 2022 ‑ August. 2022
               </span>
               <p className="text-sm text-[#9ca8c6]">
                 In this role, I was responsible for the end-to-end design and
@@ -90,6 +94,27 @@ function MyJourney() {
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
+                <img className="md:h-12 h-8" src="./Logos/baltra.png" alt="" />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
+                  Managing Customer Service
+                </span>
+              </div>
+              <span className="text-sm text-[#9ca8c6]">
+                July. 2021 - January. 2022
+              </span>
+              <p className="text-sm text-[#9ca8c6]">
+                In my role, I tackled customer issues and handled CRM
+                management. I hired and trained technicians for field work,
+                ensuring quality service on customer sites. Collaborating with
+                company employees and the company head, I gained insights into
+                the workflow of spare parts and services transitions.
+              </p>
+            </section>
+          </Div>
+          <Div className="row row-1 ">
+            <section className="shadow-md shadow-black">
+              <i className="icon fas fa-map-marker-alt"></i>
+              <div className="details">
                 <img className="md:h-14 h-10" src="./Logos/dst.png" alt="" />
                 <span className="text-xs md:text-sm title text-[#9ca8c6]">
                   Inspire Summer Camp
@@ -102,26 +127,6 @@ function MyJourney() {
                 professors, the camp offered engaging seminars and practical
                 sessions that enriched my scientific knowledge and left me
                 amazed.
-              </p>
-            </section>
-          </Div>
-
-          <Div className="row row-1">
-            <section className="shadow-md shadow-black">
-              <i className="icon fas fa-map-marker-alt"></i>
-              <div className="details">
-                <img className="md:h-14 h-10" src="./Logos/img.png" alt="" />
-                <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  Award
-                </span>
-              </div>
-              <span className="text-sm text-[#9ca8c6]">April, 2019</span>
-              <p className="text-sm text-[#9ca8c6]">
-                I was honored to receive an award from "Mr. Bhagat Singh
-                Koshyari" for being among the top 1% of students in the
-                Uttarakhand board. This recognition highlights my dedication to
-                academic excellence and motivates me to continue striving for
-                success in my educational journey.
               </p>
             </section>
           </Div>
