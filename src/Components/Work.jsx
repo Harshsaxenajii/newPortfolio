@@ -34,12 +34,18 @@ const PageSubComp = (props) => {
             <div>{props.desc}</div>
           </div>
           <div className="mx-20  text-[#9ca8c6] flex gap-2 items-center">
-            <a href={props.RepoLink} target="_blank ">
-              <img className="w-9" src={git} alt="" />
-            </a>
-            <a href={props.link} target="_blank ">
-              <img className="w-7 " src={get} alt="" />
-            </a>
+            {props.link === "" ? (
+              <>Deploying Soon...</>
+            ) : (
+              <>
+                {/* <a href={props.RepoLink} target="_blank ">
+                  <img className="w-9" src={git} alt="" />
+                </a> */}
+                <a href={props.link} target="_blank ">
+                  <img className="w-7 " src={get} alt="" />
+                </a>
+              </>
+            )}
           </div>
         </motion.div>
       </div>
@@ -51,18 +57,33 @@ function Work() {
   const [limit, setLimit] = useState(3);
   const [project] = useState([
     {
+      image: "./ProjectImages/crm.png",
+      title: "CRM",
+      desc: "The Prisma-powered CRM introduces branch management and a host of features, optimizing efficiency and elevating customer engagement effortlessly.",
+      link: "",
+      RepoLink: "",
+    },
+    {
+      image: "./ProjectImages/shopping.png",
+      title: "Shopping App",
+      desc: "I developed an application using React.js, Node.js, and MongoDB as the database. The project involved API integration and the utilization of Stripe for authentication and as a payment gateway.",
+      link: "https://shopping-app-o41l.vercel.app/",
+      RepoLink: "https://github.com/Harshsaxenajii/ShoppingApp",
+    },
+    {
       image: "./ProjectImages/talkrr.png ",
       title: "Talkrr",
       desc: "I developed a real-time chat application using ReactJS, Firebase, Redux, and Tailwind CSS. Leveraging the power of React Redux and Context, I implemented advanced concepts and integrated various other functionalities for an enhanced user experience.",
       link: "https://talkrr-rose.vercel.app",
       RepoLink: "https://github.com/Harshsaxenajii/Talkrr",
     },
+    ,
     {
-      image: "./ProjectImages/shopping.png",
-      title: "Shopping App",
-      desc: "I developed an application using React.js, Node.js, and MongoDB as the database. The project involved API integration and the utilization of Stripe for authentication and as a payment gateway.",
-      link: "https://github.com/Harshsaxenajii/ShoppingApp",
-      RepoLink: "https://github.com/Harshsaxenajii/ShoppingApp",
+      image: "./ProjectImages/texteditor.png ",
+      title: "Text Editor",
+      desc: "Built with React.js, this project showcases the perfect utilization of states and JavaScript functions. Additionally, it offers users the convenience of a dark mode feature, enhancing the overall user experience and accessibility.",
+      link: "https://harshsaxenajii.github.io/Text_editor/",
+      RepoLink: "https://github.com/Harshsaxenajii/Text_editor",
     },
     {
       image: "./ProjectImages/newsApp.png ",
@@ -77,13 +98,6 @@ function Work() {
       desc: "I focused on learning Firebase Authentication, specifically its user-friendly UI that supports email and Google authentication. This experience was solely dedicated to improving my understanding of this aspect of Firebase for future development projects.",
       link: "https://login-with-auth-nine.vercel.app/",
       RepoLink: "https://github.com/Harshsaxenajii/login-with-auth ",
-    },
-    {
-      image: "./ProjectImages/texteditor.png ",
-      title: "Text Editor",
-      desc: "Built with React.js, this project showcases the perfect utilization of states and JavaScript functions. Additionally, it offers users the convenience of a dark mode feature, enhancing the overall user experience and accessibility.",
-      link: "https://harshsaxenajii.github.io/Text_editor/",
-      RepoLink: "https://github.com/Harshsaxenajii/Text_editor",
     },
   ]);
   return (
