@@ -22,6 +22,30 @@ function MyJourney() {
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
                 <img
+                  src="./Logos/steploops.jpeg"
+                  className="md:h-12 h-8 rounded-md"
+                  alt=""
+                />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
+                  Full Stack web developer at Steploops
+                </span>
+              </div>
+              <span className="text-sm text-[#9ca8c6]">
+                {" "}
+                July 2024 - Till Now
+              </span>
+              <p className="text-sm text-[#9ca8c6]">
+                Developed an e-commerce platform for Hurla Paints, serving
+                1,000+ products. Integrated MSG91, VI DLT, and PhonePe, reducing
+                transaction time by 30% and automating workflows by 40%.
+              </p>
+            </section>
+          </Div>
+          <Div className="row row-2">
+            <section className="shadow-md shadow-black text-sm md:text-base">
+              <i className="icon fas fa-map-marker-alt"></i>
+              <div className="details">
+                <img
                   src="./Logos/tapop.jpg"
                   className="md:h-12 h-8 rounded-md"
                   alt=""
@@ -32,7 +56,7 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">
                 {" "}
-                September 2023 - Till Now
+                September 2023 - December 2023
               </span>
               <p className="text-sm text-[#9ca8c6]">
                 As a Full Stack Web Developer, my role involves translating
@@ -42,7 +66,7 @@ function MyJourney() {
               </p>
             </section>
           </Div>
-          <Div className="row row-2">
+          <Div className="row row-1">
             <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
@@ -53,7 +77,7 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">
                 {" "}
-                January. 2023 ‑ July. 2023
+                October 2022 ‑ Septermber 2023
               </span>
               <p className="text-sm text-[#9ca8c6]">
                 Through a collaborative project, I learned about open-source
@@ -67,51 +91,7 @@ function MyJourney() {
             </section>
           </Div>
 
-          <Div className="row row-1">
-            <section className="shadow-md shadow-black">
-              <i className="icon fas fa-map-marker-alt"></i>
-              <div className="details">
-                <img src="./Logos/main.png" className="md:h-12 h-8" alt="" />
-                <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  React Developer at Fuelcab
-                </span>
-              </div>
-              <span className="text-sm text-[#9ca8c6]">
-                July. 2022 ‑ August. 2022
-              </span>
-              <p className="text-sm text-[#9ca8c6]">
-                In this role, I was responsible for the end-to-end design and
-                development of the website. I gained expertise in React,
-                exploring advanced concepts such as context and Redux.
-                Additionally, I expanded my technical knowledge by familiarizing
-                myself with Firebase and GitHub, further enhancing my skills in
-                the process.
-              </p>
-            </section>
-          </Div>
-
           <Div className="row row-2">
-            <section className="shadow-md shadow-black">
-              <i className="icon fas fa-map-marker-alt"></i>
-              <div className="details">
-                <img className="md:h-12 h-8" src="./Logos/baltra.png" alt="" />
-                <span className="text-xs md:text-sm title text-[#9ca8c6]">
-                  Managing Customer Service
-                </span>
-              </div>
-              <span className="text-sm text-[#9ca8c6]">
-                July. 2021 - January. 2022
-              </span>
-              <p className="text-sm text-[#9ca8c6]">
-                In my role, I tackled customer issues and handled CRM
-                management. I hired and trained technicians for field work,
-                ensuring quality service on customer sites. Collaborating with
-                company employees and the company head, I gained insights into
-                the workflow of spare parts and services transitions.
-              </p>
-            </section>
-          </Div>
-          <Div className="row row-1 ">
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
