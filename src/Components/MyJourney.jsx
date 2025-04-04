@@ -17,6 +17,31 @@ function MyJourney() {
             <i className="fas fa-caret-up"></i>
           </div>
 
+          <Div className="row row-2">
+            <section className="shadow-md shadow-black text-sm md:text-base">
+              <i className="icon fas fa-map-marker-alt"></i>
+              <div className="details">
+                <img
+                  src="./Logos/siteGuide.png"
+                  className="md:h-12 h-8 rounded-md"
+                  alt=""
+                />
+                <span className="text-xs md:text-sm title text-[#9ca8c6]">
+                  Android & iOS developer at SiteGuide
+                </span>
+              </div>
+              <span className="text-sm text-[#9ca8c6]">
+                {" "}
+                Feburary 2025 - Till Now
+              </span>
+              <p className="text-sm text-[#9ca8c6]">
+                Working on a pixel-perfect mobile application with modern
+                features, load balancing strategies, and internationalization
+                concepts to build a globally scalable app.
+              </p>
+            </section>
+          </Div>
+
           <Div className="row row-1">
             <section className="shadow-md shadow-black text-sm md:text-base">
               <i className="icon fas fa-map-marker-alt"></i>
@@ -32,7 +57,7 @@ function MyJourney() {
               </div>
               <span className="text-sm text-[#9ca8c6]">
                 {" "}
-                July 2024 - Till Now
+                January 2024 - January 2025
               </span>
               <p className="text-sm text-[#9ca8c6]">
                 Developed an e-commerce platform for Hurla Paints, serving
@@ -91,7 +116,7 @@ function MyJourney() {
             </section>
           </Div>
 
-          <Div className="row row-2">
+          {/* <Div className="row row-2">
             <section className="shadow-md shadow-black">
               <i className="icon fas fa-map-marker-alt"></i>
               <div className="details">
@@ -109,7 +134,7 @@ function MyJourney() {
                 amazed.
               </p>
             </section>
-          </Div>
+          </Div> */}
         </div>
       </div>
     </div>
