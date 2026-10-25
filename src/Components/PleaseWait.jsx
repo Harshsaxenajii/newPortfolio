@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "../Images/Logo.png";
 
 function PleaseWait() {
   return (
-    <div>
-      <div className="bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400 flex-col flex justify-center items-center h-screen w-full">
-        <img className="w-24 animate-spin" src={logo} alt="" />
-        <div className="text-white">Please Wait...</div>
+    <div className="grid h-[100svh] w-full place-items-center bg-ink-950">
+      <div className="flex flex-col items-center gap-4">
+        <span className="h-10 w-10 animate-spin rounded-full border-2 border-white/10 border-t-teal-300" />
+        <span className="font-mono text-xs uppercase tracking-[0.3em] text-slate-500">Loading</span>
       </div>
     </div>
   );
